@@ -1,3 +1,149 @@
 * {
   font-family: 'Red Hat Display', sans-serif;
+  padding: 0;
+  margin-left: 0;
+}
+
+body {
+  background-image: url("images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+  background-color: hsl(225, 100%, 94%);
+}
+
+
+.container {
+  width: 365px;
+  height: 550px;
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4em;
+  margin-bottom: 4em;
+  text-align: center;
+  background-color: #FFFFFF;
+  box-shadow: 0 20px 15px -6px hsla(223, 47%, 23%, 0.1);
+}
+
+.top-image {
+  background-image: url("images/illustration-hero.svg");
+  height: 180px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  background-size: cover;
+}
+
+
+.plan {
+  width: 80%;
+  background-color: hsl(225, 100%, 98%);
+  height: 75px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.icon {
+  background-image: url("images/icon-music.svg");
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  grid-column: 1 / 2;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.price {
+  grid-column: 2 / 4;
+  margin-top: 20px;
+
+}
+
+.price h2 {
+  padding: 0;
+  margin: 0;
+  font-weight: 900;
+  font-size: 0.85em;
+  margin-bottom: 4px;
+}
+
+.price p {
+  padding: 0;
+  margin: 0;
+  font-weight: 500;
+  font-size: 0.85em;
+  opacity: 0.7;
+}
+
+.change-plan {
+  grid-column: 4 / -1;
+  vertical-align: middle;
+  text-align: right;
+  margin-top: 30px;
+  padding: 0;
+  font-size: 0.75em;
+  font-weight: 700;
+  padding-right: 20px;
+}
+
+.description {
+  margin-top: 32px;
+  margin-bottom: 20px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.description h1,
+.description p {
+  padding: 0;
+  margin: 0;
+}
+
+.description h1 {
+  font-size: 1.4em;
+  margin-bottom: 16px;
+  font-weight: 900;
+}
+
+.description p {
+  font-size: 0.9em;
+  opacity: 60%;
+  font-weight: 500;
+}
+
+.button {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 40px;
+  background-color: hsl(245, 75%, 52%);
+  border-radius: 10px;
+  margin-top: 24px;
+  box-shadow: 0 20px 15px -6px hsla(223, 47%, 23%, 0.1);
+}
+
+.button button {
+  background-color: hsl(245, 75%, 52%, 0%);
+  border: 0px;
+  color: #FFFFFF;
+  padding: 10px;
+  font-weight: 500;
+  font-size: 0.8em;
+  text-align: center;
+}
+
+.bottom {
+  margin-top: 32px;
+  margin-bottom: auto;
+  align-content: center;
+  font-size: 0.5em;
+  opacity: 60%;
+  font-weight: 700;
 }
