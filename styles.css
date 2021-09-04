@@ -92,6 +92,11 @@ body {
   padding-right: 20px;
 }
 
+.change-plan a:hover {
+  text-decoration: none;
+  color: hsla(245, 75%, 52%, 0.7);
+}
+
 .description {
   margin-top: 32px;
   margin-bottom: 20px;
@@ -118,32 +123,38 @@ body {
   font-weight: 500;
 }
 
-.button {
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-  height: 40px;
-  background-color: hsl(245, 75%, 52%);
-  border-radius: 10px;
-  margin-top: 24px;
-  box-shadow: 0 20px 15px -6px hsla(223, 47%, 23%, 0.1);
-}
 
 .button button {
-  background-color: hsl(245, 75%, 52%, 0%);
+  background-color: hsl(245, 75%, 52%);
   border: 0px;
   color: #FFFFFF;
   padding: 10px;
   font-weight: 500;
   font-size: 0.8em;
   text-align: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 40px;
+  border-radius: 10px;
+  margin-top: 24px;
+  box-shadow: 0 20px 15px -6px hsla(223, 47%, 23%, 0.1);
+}
+
+.button button:hover {
+  background-color: hsla(245, 75%, 52%, 0.7);
 }
 
 .bottom {
   margin-top: 32px;
   margin-bottom: auto;
   align-content: center;
-  font-size: 0.5em;
+  font-size: 0.55em;
   opacity: 60%;
   font-weight: 700;
+}
+
+.bottom:hover {
+  opacity: 80%;
+  font-weight: 900;
 }
