@@ -143,6 +143,7 @@ body {
 
 .button button:hover {
   background-color: hsla(245, 75%, 52%, 0.7);
+  cursor: pointer;
 }
 
 .bottom {
@@ -157,4 +158,32 @@ body {
 .bottom:hover {
   opacity: 80%;
   font-weight: 900;
+  cursor: pointer;
 }
+
+@media (max-width:375px) {
+
+  .container{
+    max-width: 90%;
+  }
+
+  .plan{
+    min-width: 85%;
+  }
+
+  .button button{
+    min-width: 85%;
+    font-size: 0.87em;
+  }
+
+  .bottom{
+    min-width: 85%;
+    font-size: 0.62em;
+  }
+
+  .icon{
+    margin-right: 10px;
+  }
+  
+}
+
